@@ -11,7 +11,7 @@ cp /etc/apt/source.list /etc/apt/source.list.bak
 #====================================================================
 # 接続サーバ変更
 #====================================================================
-sudo sed -i.bak -e "s%http://us.archive.ubuntu.com/ubuntu/%http://ftp.jaist.ac.jp/pub/Linux/ubuntu/%g" /etc/apt/sources.list
+sudo sed -i.bak -e "s%http://.*.ubuntu.com%http://ftp.jaist.ac.jp/pub/Linux%g" /etc/apt/sources.list
 #====================================================================
 # 一時フォルダ
 #====================================================================
