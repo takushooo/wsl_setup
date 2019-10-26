@@ -34,6 +34,8 @@ sudo cp latexmk/latexmk.pl /usr/bin/latexmk
 #====================================================================
 # software install
 #====================================================================
+mkdir /mnt/c/User/Public/Downloads
+cd /mnt/c/User/Public/Downloads
 wget https://www.sumatrapdfreader.org/dl/SumatraPDF-3.1.2-64-install.exe
 echo '#################################'
 echo '### Please install SumatraPDF ###'
