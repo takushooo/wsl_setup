@@ -6,6 +6,7 @@ yes | sudo apt update
 yes | sudo apt upgrade
 yes | sudo apt install texlive-full
 yes | sudo apt install texlive-lang-japanese
+yes | sudo apt-get install texlive-fonts-recommended
 yes | sudo apt install xdvik-ja
 yes | sudo apt install gv
 yes | sudo apt install perl
